@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="../style/css_reset.css" rel="stylesheet" type="text/css">
+        <link href="../style/main_style.css" rel="stylesheet" type="text/css">
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <!--Different calculator modes-->
+        <div id="header">
+            Mode: 
+            <select id="mode">
+                <option value="1" selected>Basic</option>
+                <option value="2">Advanced</option>
+            </select>
+        </div>
+
+        <!--Calculator's display-->
+        <div id="calculator_display"></div>
+        
+        <!--Store the calculator number buttons inside a table-->
+        <table id="calculator">
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+        <script src="../scripts/calculator_generators.js"></script>
+        <script src="../scripts/token.js"></script>
+        <script src="../scripts/tokenizer.js"></script>
+        <script src="../scripts/base_calculator.js"></script>
+        <script src="../scripts/basic_calculator.js"></script>
+        <script src="../scripts/advanced_calculator.js"></script>
+        <script src="../scripts/main_script.js"></script>
+    </body>
+</html>

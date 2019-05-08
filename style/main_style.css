@@ -1,0 +1,46 @@
+table
+{
+    border-collapse: collapse;
+    width: 9.5rem;
+    margin: 0 auto;
+}
+
+td
+{
+}
+
+#header, #mode
+{
+    width: 9.5rem;
+    margin: 0 auto;
+}
+
+#calculator_display
+{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    width: 40rem;
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.number_button, .function_button
+{
+    font-size: 3.5rem;
+    width: 10rem;
+}
+
+button
+{
+    border: none;
+}
+
+td[colspan] > button
+{
+    background-color: orangered;
+    opacity: 0.9;
+    width: 100%;
+}
